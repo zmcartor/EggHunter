@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2060196495304B67827B9E35 /* libPods-Egghead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA77B79B5AA48EC9ED85478 /* libPods-Egghead.a */; };
 		92B8238E1903381F00D921CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B8238D1903381F00D921CB /* Foundation.framework */; };
 		92B823901903381F00D921CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B8238F1903381F00D921CB /* CoreGraphics.framework */; };
 		92B823921903382000D921CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B823911903382000D921CB /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		92B823B21903382000D921CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B823911903382000D921CB /* UIKit.framework */; };
 		92B823BA1903382000D921CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92B823B81903382000D921CB /* InfoPlist.strings */; };
 		92B823BC1903382000D921CB /* EggheadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B823BB1903382000D921CB /* EggheadTests.m */; };
+		92B823C7190338E000D921CB /* waterside.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 92B823C6190338E000D921CB /* waterside.jpeg */; };
+		92B823C91903390900D921CB /* wildflowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92B823C81903390900D921CB /* wildflowers.jpg */; };
+		92B823CB190339A000D921CB /* southpark.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 92B823CA190339A000D921CB /* southpark.PNG */; };
+		92B823D11903648700D921CB /* ZZZLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B823D01903648700D921CB /* ZZZLandscapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,13 @@
 		92B823B71903382000D921CB /* EggheadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggheadTests-Info.plist"; sourceTree = "<group>"; };
 		92B823B91903382000D921CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92B823BB1903382000D921CB /* EggheadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggheadTests.m; sourceTree = "<group>"; };
+		92B823C6190338E000D921CB /* waterside.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterside.jpeg; sourceTree = "<group>"; };
+		92B823C81903390900D921CB /* wildflowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wildflowers.jpg; sourceTree = "<group>"; };
+		92B823CA190339A000D921CB /* southpark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southpark.PNG; sourceTree = "<group>"; };
+		92B823CF1903648700D921CB /* ZZZLandscapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZLandscapeView.h; sourceTree = "<group>"; };
+		92B823D01903648700D921CB /* ZZZLandscapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZLandscapeView.m; sourceTree = "<group>"; };
+		A4B194A45BEC4334B2BBDF5E /* Pods-Egghead.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egghead.xcconfig"; path = "Pods/Pods-Egghead.xcconfig"; sourceTree = "<group>"; };
+		ACA77B79B5AA48EC9ED85478 /* libPods-Egghead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Egghead.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 				92B823901903381F00D921CB /* CoreGraphics.framework in Frameworks */,
 				92B823921903382000D921CB /* UIKit.framework in Frameworks */,
 				92B8238E1903381F00D921CB /* Foundation.framework in Frameworks */,
+				2060196495304B67827B9E35 /* libPods-Egghead.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +101,7 @@
 				92B823B51903382000D921CB /* EggheadTests */,
 				92B8238C1903381F00D921CB /* Frameworks */,
 				92B8238B1903381F00D921CB /* Products */,
+				A4B194A45BEC4334B2BBDF5E /* Pods-Egghead.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +121,7 @@
 				92B8238F1903381F00D921CB /* CoreGraphics.framework */,
 				92B823911903382000D921CB /* UIKit.framework */,
 				92B823AF1903382000D921CB /* XCTest.framework */,
+				ACA77B79B5AA48EC9ED85478 /* libPods-Egghead.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +129,15 @@
 		92B823931903382000D921CB /* Egghead */ = {
 			isa = PBXGroup;
 			children = (
+				92B823C5190338B000D921CB /* Landscapes */,
 				92B8239C1903382000D921CB /* ZZZAppDelegate.h */,
 				92B8239D1903382000D921CB /* ZZZAppDelegate.m */,
 				92B8239F1903382000D921CB /* Main_iPhone.storyboard */,
 				92B823A21903382000D921CB /* Main_iPad.storyboard */,
 				92B823A51903382000D921CB /* ZZZViewController.h */,
 				92B823A61903382000D921CB /* ZZZViewController.m */,
+				92B823CF1903648700D921CB /* ZZZLandscapeView.h */,
+				92B823D01903648700D921CB /* ZZZLandscapeView.m */,
 				92B823A81903382000D921CB /* Images.xcassets */,
 				92B823941903382000D921CB /* Supporting Files */,
 			);
@@ -155,6 +173,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92B823C5190338B000D921CB /* Landscapes */ = {
+			isa = PBXGroup;
+			children = (
+				92B823C6190338E000D921CB /* waterside.jpeg */,
+				92B823C81903390900D921CB /* wildflowers.jpg */,
+				92B823CA190339A000D921CB /* southpark.PNG */,
+			);
+			name = Landscapes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B823BF1903382000D921CB /* Build configuration list for PBXNativeTarget "Egghead" */;
 			buildPhases = (
+				EC32FD2AA4754963842CC3CA /* Check Pods Manifest.lock */,
 				92B823861903381F00D921CB /* Sources */,
 				92B823871903381F00D921CB /* Frameworks */,
 				92B823881903381F00D921CB /* Resources */,
+				F7C483F80DFC42B5AFB8C4DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +264,10 @@
 			files = (
 				92B823A41903382000D921CB /* Main_iPad.storyboard in Resources */,
 				92B823A91903382000D921CB /* Images.xcassets in Resources */,
+				92B823C91903390900D921CB /* wildflowers.jpg in Resources */,
 				92B823A11903382000D921CB /* Main_iPhone.storyboard in Resources */,
+				92B823C7190338E000D921CB /* waterside.jpeg in Resources */,
+				92B823CB190339A000D921CB /* southpark.PNG in Resources */,
 				92B823981903382000D921CB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,12 +282,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC32FD2AA4754963842CC3CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C483F80DFC42B5AFB8C4DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Egghead-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92B823861903381F00D921CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				92B8239A1903382000D921CB /* main.m in Sources */,
+				92B823D11903648700D921CB /* ZZZLandscapeView.m in Sources */,
 				92B8239E1903382000D921CB /* ZZZAppDelegate.m in Sources */,
 				92B823A71903382000D921CB /* ZZZViewController.m in Sources */,
 			);
@@ -388,6 +455,7 @@
 		};
 		92B823C01903382000D921CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B194A45BEC4334B2BBDF5E /* Pods-Egghead.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +469,7 @@
 		};
 		92B823C11903382000D921CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B194A45BEC4334B2BBDF5E /* Pods-Egghead.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -471,6 +540,7 @@
 				92B823C11903382000D921CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92B823C21903382000D921CB /* Build configuration list for PBXNativeTarget "EggheadTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +549,7 @@
 				92B823C41903382000D921CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

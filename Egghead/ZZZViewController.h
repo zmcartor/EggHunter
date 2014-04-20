@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class TTCounterLabel;
+
 @interface ZZZViewController : UIViewController
+@property (weak, nonatomic) IBOutlet TTCounterLabel *counterLabel;
+@property (weak, nonatomic) IBOutlet UIView *navItemView;
 
 @end
